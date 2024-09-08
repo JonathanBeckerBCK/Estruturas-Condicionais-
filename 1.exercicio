@@ -1,0 +1,14 @@
+programa {
+  inclua biblioteca Matematica --> Mat
+  inclua biblioteca Util
+  funcao inicio() {
+    escreva("4. Faça um Programa que peça uma temperatura e informe na tela se o valor é positivo ou negativo.")
+    escreva("\n\na. ( ) 2 * 4 == 24/3 ",2 * 4 == 24/3,"\n")
+    escreva("\n\nb. ( ) (15 % 4) < (19 % 6) ",(15 % 4) < (19 % 6),"\n")
+    escreva("\n\nc. ( ) nao(2 < 5) != (8 == 8) ",nao(2 < 5) != (8 == 8),"\n")
+    escreva("\n\nd. ( ) verdadeiro ou falso ",verdadeiro ou falso,"\n")
+    escreva("\n\ne. ( ) 2*2 == Mat.potencia(2, 2) ",2*2 == Mat.potencia(2, 2),"\n")
+    escreva("\n\nf. ( ) verdadeiro e ( (7 / 2) > 3.5 )",verdadeiro e ( (7 / 2) > 3.5 ),"\n")
+   escreva("\n\ng. ( ) (Mat.arredondar( 2.8, 0 ) == 3) e (Mat.raiz(9) == 3) ",(Mat.arredondar( 2.8, 0 ) == 3) e (Mat.raiz(9) == 3),"\n")
+  }
+}
