@@ -1,0 +1,12 @@
+programa {
+inclua biblioteca Matematica --> mat
+funcao inicio() {    
+escreva("3. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por km rodado.")
+real km_rodado, km, multiplicacao, resultado
+km = 400
+km_rodado = 0.15
+multiplicacao = km_rodado * km//= 400km, R$ 0,15 por km rodado.
+resultado = km
+     escreva("\n\nA quantidade de km percorridos por um carro alugado pelo usuário é de : ", resultado," Km\n")
+  }
+}
