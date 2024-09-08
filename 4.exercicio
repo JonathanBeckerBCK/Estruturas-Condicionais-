@@ -1,0 +1,11 @@
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    escreva("4. Faça um Programa que peça uma temperatura e informe na tela se o valor é positivo ou negativo.")
+     inteiro temperatura
+     temperatura = u.sorteia(-10, 10)
+      se(temperatura > 0){ escreva("\n\nTemperatura positiva:", temperatura,"\n")}
+      se(temperatura < 0){ escreva("\n\nTemperatura negativa:", temperatura,"\n")}
+      se(temperatura == 0){ escreva("\n\nTemperatura neutra:", temperatura,"\n")}
+  }
+}
