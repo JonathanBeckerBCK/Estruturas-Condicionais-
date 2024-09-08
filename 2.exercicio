@@ -1,0 +1,17 @@
+programa {
+inclua biblioteca Matematica --> mat
+funcao inicio() {    
+escreva("2. faça um programa que calcule equações de segundo grau; Seu algoritmo deve pedir ao usuário 3 valores (a, b, c); Ao final, você deve apresentar: a.O valor de a, b e c;b.O valor de delta;c.O valor de x1;d.O valor de x2;")
+real a, b, b2 , c, x1, x2  
+real raizdelta, delta, numero
+a = 1
+b = 2   b2 = 2 * 2
+c = 2
+delta = b2 - 4 * a * c//= -4
+numero = 4
+raizdelta = mat.raiz(numero, 2.0)
+x1 = (- b + raizdelta) / (2 * a)
+x2 = (- b - raizdelta) / (2 * a) 
+escreva("\n\na.O valor de a, b e c; a = ",a,", b = ",b,", c = ", c,"\nb.O valor de delta; delta = ",delta,"\nc.O valor de x1; x1 = ",x1,"\nd.O valor de x2; x2 = ",x2)
+  }
+}
