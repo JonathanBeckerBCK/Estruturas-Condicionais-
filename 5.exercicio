@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    
+    escreva("5. Faça um Programa que peça dois números e imprima o maior deles.\n")
+    inteiro maior, valor
+    leia(maior, valor)
+    se(maior < valor){escreva("imprimindo ",valor,"....finaliado")}
+    se(maior > valor){escreva("imprimindo ",maior,"....finaliado")}
+  }
+}
