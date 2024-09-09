@@ -2,7 +2,7 @@ programa {
   inclua biblioteca Matematica --> Mat
   inclua biblioteca Util
   funcao inicio() {
-    escreva("4. Faça um Programa que peça uma temperatura e informe na tela se o valor é positivo ou negativo.")
+    escreva("1. Informe o valor lógico (verdadeiro ou falso) para as proposições lógicas abaixo:\n")
     escreva("\n\na. ( ) 2 * 4 == 24/3 ",2 * 4 == 24/3,"\n")
     escreva("\n\nb. ( ) (15 % 4) < (19 % 6) ",(15 % 4) < (19 % 6),"\n")
     escreva("\n\nc. ( ) nao(2 < 5) != (8 == 8) ",nao(2 < 5) != (8 == 8),"\n")
