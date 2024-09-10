@@ -1,0 +1,25 @@
+programa {
+  inclua biblioteca Util 
+  funcao inicio() {
+    escreva("11. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: a. A mensagem !!APROVADO!!, se a média alcançada for maior ou igual a sete; b. A mensagem ''REPROVADO'', se a média for menor do que sete; c. A mensagem ''APROVADO com Distinção'', se a média for igual a dez.\n")
+     inteiro nota1, nota2
+
+     nota1 = Util.sorteia(0, 10)
+     
+
+      se(nota1 <= 5){escreva("\nSua primeira nota parcial: ",nota1," Reprovado\n")}
+      se(nota1 == 6){escreva("\nSua primeira nota parcial: ",nota1," com Distinção\n")}
+      se(nota1 >= 7 ){escreva("\nSua primeira nota parcial: ",nota1," Aprovado\n")}
+  
+  nota2 = Util.sorteia(0, 10)
+      
+      se(nota2 <= 5){escreva("\nSua segunda nota parcial: ",nota2," Reprovado\n")}
+      se(nota2 == 6){escreva("\nSua segunda nota parcial: ",nota2," com Distinção\n")}
+      se(nota2 >= 7 ){escreva("\nSua segunda nota parcial: ",nota2," Aprovado\n")}
+  }
+
+      
+
+
+  }
+}
