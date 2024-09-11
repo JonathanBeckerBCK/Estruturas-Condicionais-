@@ -1,0 +1,36 @@
+programa {
+	
+	funcao inicio() {
+		
+		escreva("6. Faça um Programa que peça quatro números e imprima o maior deles.")
+		
+		inteiro maior, valorA, valorB
+		
+		leia(valorA, valorB)
+    
+		se(valorA > valorB)
+		{
+			maior = valorA
+		}
+		senao
+		{
+			maior = valorB
+		}
+		
+		
+		leia(valorA, valorB)
+		
+		se(valorA > maior)
+		{
+			maior = valorA
+		}
+		
+		se(valorB > maior)
+		{
+			maior = valorB
+		}
+		
+		
+		escreva("imprimindo ",maior,"....finaliado")
+  }
+}
