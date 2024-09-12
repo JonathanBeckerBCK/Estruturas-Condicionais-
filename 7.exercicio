@@ -1,0 +1,27 @@
+  programa {
+    funcao inicio() {
+      escreva("7. Faça um Programa que leia três números e mostre-os em ordem decrescente.\n")
+      inteiro numA, numB, numC
+      leia(numA, numB, numC)
+      
+      se(numA > numB e numA > numC)
+      {
+        escreva("\n\nimprimindo o maior valor ", numA,"....finalizado")
+      }
+      senao se(numB > numA e numB > numC) 
+        escreva("\n\nimprimindo o maior valor ", numB,"....finalizado")
+      
+      senao se(numC > numA e numC > numB)
+      escreva("\n\nimprimindo o maior valor ", numC,"....finalizado")
+ 
+      senao se(numA == numC)
+      escreva("\n\nimprimindo o maior valor ", numA,"....finalizado")
+      
+      senao se(numA == numB)
+      escreva("\n\nimprimindo o maior valor ", numB,"....finalizado")
+       
+      senao se(numB == numC )
+      escreva("\n\nimprimindo o maior valor ", numC,"....finalizado")    
+    }
+  
+  }
